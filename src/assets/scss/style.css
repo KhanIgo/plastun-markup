@@ -322,73 +322,57 @@ body > .row, body > .row-flex {
   text-align: center; }
   /* line 6, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .btn-pink {
-    background-color: #f8cfe3;
-    color: #764d61;
     padding: 0.85em 1.5em;
     border-radius: 1.5em;
     transition: 350ms; }
-    /* line 12, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+    /* line 10, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
     .btn-pink:hover {
-      background: #764d61;
       color: white; }
-  /* line 17, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 14, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .btn-pink-dark {
-    background: #764d61;
     color: white;
     padding: 0.85em 2em;
     border-radius: 1.5em; }
-  /* line 23, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 19, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .btn-white {
     background: white;
-    color: #764d61;
     padding: 0.85em 2em;
     border-radius: 1.5em;
     transition: 350ms; }
-    /* line 29, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+    /* line 24, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
     .btn-white:hover {
-      background: #764d61;
       color: white; }
-  /* line 34, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 28, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .btn-trans {
-    border: solid 1px #764d61;
     border-radius: 1.5em;
-    color: #764d61;
     padding: 0.85em 1.5em;
     transition: 300ms; }
-    /* line 40, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
-    .btn-trans:hover {
-      background-color: #f8cfe3;
-      border: solid 1px #f8cfe3; }
 
-/* line 48, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 38, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 input[type=text] {
   width: 100%;
   background-color: transparent;
-  border: solid 1px #764d61;
   border-radius: 2em;
-  color: #764d61;
   font-size: 1em;
   text-align: center;
   padding: 0.75em 1em;
   outline: NONE !important; }
 
-/* line 59, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 47, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 input[type=submit] {
   width: 100%;
   background: white;
-  color: #764d61;
   padding: 0.75em 1em;
   border-radius: 1.5em;
   transition: 350ms;
   text-align: center;
   font-size: 1em;
   outline: NONE !important; }
-  /* line 69, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 56, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   input[type=submit]:hover {
-    background: #764d61;
     color: white; }
 
-/* line 75, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 61, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 .form__items {
   display: -webkit-flex;
   display: -moz-flex;
@@ -398,50 +382,38 @@ input[type=submit] {
   flex-wrap: wrap;
   justify-content: space-between; }
 
-/* line 84, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 70, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 .form__desc {
   font-size: 0.75em;
   margin-top: 1em; }
 
-/* line 88, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 74, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 .form__item {
   flex-grow: 1;
   flex-shrink: 0;
   margin: 5px; }
-  /* line 92, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 78, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .form__item .input-wrpr {
     width: 100%;
     max-width: 250px; }
-  /* line 96, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 82, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .form__item .submit-wrpr {
     width: 100%;
     max-width: 165px; }
 
-/* line 102, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 88, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 .sn {
   display: inline-block;
   width: 33px;
   height: 33px;
   background-repeat: no-repeat;
   background-size: cover; }
-  /* line 108, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
-  .sn-fb {
-    background-image: url("../img/sn-fb.png"); }
-  /* line 111, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
-  .sn-inst {
-    background-image: url("../img/sn-inst.png"); }
-  /* line 114, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 98, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .sn-big {
     width: 44px;
     height: 44px; }
-  /* line 118, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
-  .sn-big-fb {
-    background-image: url("../img/sn-fb-big.png"); }
-  /* line 121, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
-  .sn-big-inst {
-    background-image: url("../img/sn-inst-big.png"); }
 
-/* line 127, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+/* line 109, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
 .pagination-ul {
   margin-left: auto;
   margin-right: auto;
@@ -451,7 +423,7 @@ input[type=submit] {
   display: -ms-flex;
   display: -o-flex;
   display: flex; }
-  /* line 137, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
+  /* line 119, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_ui.scss */
   .pagination-ul a {
     color: inherit;
     text-decoration: none; }
@@ -755,155 +727,5 @@ span.spacer {
 /* line 117, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_typography.scss */
 .fz_3 {
   font-size: 3em; }
-
-/* line 1, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-.header {
-  background: #ede4e9; }
-  /* line 3, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-  .header__container {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0; }
-  /* line 17, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-  .header__nav {
-    margin-right: auto;
-    margin-left: 80px;
-    width: 320px;
-    font-size: 1.15em; }
-    /* line 22, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-    .header__nav ul {
-      width: 100%;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      list-style: none; }
-    /* line 34, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-    .header__nav a {
-      color: inherit;
-      text-decoration: none; }
-  /* line 39, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-  .header__actions {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-    /* line 47, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-    .header__actions .action-call {
-      color: inherit;
-      text-decoration: none;
-      font-size: 1.15em; }
-  /* line 55, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_header.scss */
-  .header__cart-btn {
-    display: block;
-    width: 44px;
-    height: 44px;
-    background-image: url("../img/icon-cart-1.png");
-    background-repeat: no-repeat;
-    margin: 0 15px 0 20px; }
-
-/* line 4, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-.f {
-  background-color: #f8cfe3;
-  color: #2b2929;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  align-items: center;
-  background-image: url("../img/logo-footer.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center bottom; }
-  /* line 19, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f a {
-    text-decoration: none;
-    color: inherit; }
-  /* line 23, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__container {
-    height: auto !important; }
-  /* line 27, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__logo {
-    text-align: center; }
-  /* line 30, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 820px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 1.15em;
-    margin-top: 60px; }
-    /* line 39, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-    .f__nav ul {
-      list-style: none;
-      display: -webkit-flex;
-      display: -moz-flex;
-      display: -ms-flex;
-      display: -o-flex;
-      display: flex;
-      text-transform: uppercase;
-      justify-content: space-between; }
-    /* line 50, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-    .f__nav a {
-      text-decoration: none; }
-  /* line 55, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__contacts {
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.15em;
-    margin-top: 60px;
-    text-transform: uppercase; }
-    /* line 66, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-    .f__contacts a {
-      margin: 5px; }
-  /* line 70, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__social {
-    text-align: center;
-    margin-top: 30px; }
-  /* line 74, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__address {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 1.12em; }
-  /* line 79, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__p2 {
-    margin-top: 1em; }
-  /* line 82, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_footer.scss */
-  .f__p3 {
-    margin-top: 2em; }
-
-/* line 1, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_page.scss */
-body {
-  font-family: Circe;
-  font-size: 16px;
-  color: #764d61; }
-
-/* line 6, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_page.scss */
-.body-landing {
-  background: #ede4e9 url("../img/body-bg.jpg") no-repeat;
-  background-position: 0 0; }
-  @media (max-width: 1900px) {
-    /* line 6, /Users/khanigo/Documents/01cat/Пластун/src/assets/scss/_page.scss */
-    .body-landing {
-      background-position: calc( 585px - 50vw - 315px) top; } }
 
 /*# sourceMappingURL=style.css.map */

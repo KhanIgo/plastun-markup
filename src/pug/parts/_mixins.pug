@@ -1,2 +1,72 @@
 include _bemto.pug
 //mixin article_item(title, image, src, ago, excerpt)
+
+mixin social(text)
+    +b.A(href="#").social-link= text
+    
+    
+mixin about-item(text, img) 
+    +b.b-about-item
+        +e.img-wrp
+            +e.IMG(src=""+img).img
+            
+        +e.text
+            p!= text
+            
+
+
+mixin b-offer-item
+    +b.b-offer
+        +e.img-wrp
+            +e.IMG(src="").img
+        
+        +e.info
+            +e.title
+                p Пейнтбол школьникам
+            +e.excerpt
+                p Специальные условия для детей и организованных групп школьников
+            +e.price
+                p 750 п
+            +e.action
+                +e.A(href="#").btn.uppercase Заказать
+            
+            
+            
+            
+mixin b-area-item(name, temp, desc, reverse)
+    +b.b-area(class="b-area--"+reverse)
+        +e.info
+            +e.title
+                p!= name
+            +e.temp
+                p Темп: 
+                    span!= temp
+            +e.desc
+                p!= desc
+        +e.img-wrp
+            +e.IMG(src="").img
+            +e.A(href="#").btn.view Смотреть 12 фото
+            
+            
+            
+mixin recreation-item(name, dec, price, img)
+    +b.b-recreation
+        +e.img-wrp
+            +e.IMG(src=""+img).img
+            +e.A(href="#").btn.view Смотреть 12 фото
+        +e.info
+            +e.title
+                p!= name
+            +e.desc
+                p!= desc
+            +e.price
+                p!= price
+                
+                
+mixin photo-report(name, img)
+    +b.b-photo-report
+        +e.img-wrp
+            +e.IMG(src=""+img).img
+        
+        +e.title
+            p!= name
