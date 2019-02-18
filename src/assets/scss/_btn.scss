@@ -49,10 +49,18 @@
         height: 50px;
         line-height: 50px;
     }
+    &--md{
+        height: 37px;
+        line-height: 37px;
+    }
     &--center{
         text-align: center;
     }
-    
+    &--white-bordered{
+        color: $c-white;
+        border: solid 2px $c-white;
+        border-radius: 40px;
+    }
     &--video{
         @include font-sans;
         position: relative;

@@ -1,0 +1,26 @@
+.c-areas {
+    background-image: url('../../images/back_image%20(1).png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    //background-size: 100%;
+    margin-top: -110px;
+    padding-top: 150px;
+    min-height: 940px;
+    &__container {}
+    &__title {
+        
+        text-align: center;
+        
+    }
+    &__list {}
+}
+
+.b-area {
+    &__info {}
+    &__title {}
+    &__temp {}
+    &__desc {}
+    &__img-wrp {}
+    &__img {}
+    &__btn {}
+}
