@@ -1,0 +1,11 @@
+body{
+    font-size: 14px;
+    width: 100vw;
+    font-family: "Clear Sans";
+    overflow-x: hidden;
+    background-color: $c-back;
+    //padding-top: 130px;
+    >.row{
+        width: 100vw;
+    }
+}

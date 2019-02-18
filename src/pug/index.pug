@@ -4,13 +4,13 @@ html(lang='RU-ru')
     head
         meta(charset='UTF-8')
         title Document
-        link(rel='stylesheet', href='assets/libs/hamburger/hamburgers.css')
-        link(rel='stylesheet', href='assets/fonts/Circe/font.css')
+        //link(rel='stylesheet', href='assets/libs/hamburger/hamburgers.css')
         link(rel='stylesheet', href='assets/css/style.css')
     
     body
         include parts/_header.pug
         
+        include components/_slider.pug
         include components/_about-and-price.pug
         include components/_special-offer.pug
         include components/_areas.pug
@@ -19,19 +19,7 @@ html(lang='RU-ru')
         include components/_contacts-and-card.pug
         include components/_services.pug
         
-        
-        
         include parts/_footer.pug
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
         script(src='assets/libs/jquery/jquery-3.2.1.min.js')
         script(src='assets/libs/mobile-detect/mobile-detect.min.js')

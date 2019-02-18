@@ -1,3 +1,21 @@
-@mixin margin-top ($margin) {
-    
+@mixin tdn(){
+    text-decoration: none;
+}
+@mixin hover($color){
+    &:hover{
+        color: $color;
+    }
+}
+@mixin color-gradient($color){
+    background: $color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin font-sans(){
+    font-family: "Clear Sans";
+}
+
+@mixin font-intro(){
+    font-family: "Intro";
 }

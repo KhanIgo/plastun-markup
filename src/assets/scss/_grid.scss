@@ -1,26 +1,17 @@
+$d-width: '1170px'; //desktop width
+$d-padding: '15px';
+$m-width: '500px'; // mobile width
+$m-padding: '15px';
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-    font-size: 16px;
-    width: 100vw;
-    overflow-x: hidden;
-    >.row{
-        width: 100vw;
-        
-    }
-}
 .row{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .row-flex{
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -42,10 +33,12 @@ body>.row, body>.row-flex{
 .container{
     width: 100%;
     max-width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    @media (max-width: $d-width) {
+        padding-left: $d-padding;
+        padding-right: $d-padding;
+    }
 }
 .p0{
     padding-left: 0;

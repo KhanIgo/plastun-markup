@@ -1,0 +1,88 @@
+.btn{
+    @include font-intro;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1em;
+    text-align: center;
+    
+    
+    
+    &--gradient-border{
+        position: relative;
+        background-color: $c-back;
+        border-radius: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        
+        
+        span{
+            @include color-gradient($c-gradient);
+            letter-spacing: 0.05em;
+            z-index: 2;
+            width: 100%;
+        }
+        
+        &:before{
+            content: '';
+            position: absolute;
+            display: block;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            position: absolute;
+            left: -2px;
+            top: -2px;
+            background: $c-gradient;
+            z-index: -1;
+            border-radius: 40px;   
+        }
+    }
+    
+    &--gradient{
+        background: $c-gradient;
+        color: $c-white;
+        text-transform: uppercase;
+        border-radius: 40px;
+    }
+    &--lg{
+        height: 50px;
+        line-height: 50px;
+    }
+    &--center{
+        text-align: center;
+    }
+    
+    &--video{
+        @include font-sans;
+        position: relative;
+        padding-left: 47px;
+        color: $c-orange;
+        font-size: 1.14em;
+        
+        &:before{
+            content: '';
+            display: block;
+            mask-image: url('../img/icon_video.svg');
+            mask-repeat: no-repeat;
+            mask-size: contain;
+            background-color: currentColor;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            
+            left: 0;
+            top: -8px;
+        }
+        
+        
+        //
+    }
+    
+    
+    
+    
+    
+    
+    
+}

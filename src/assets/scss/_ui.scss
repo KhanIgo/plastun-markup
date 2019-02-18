@@ -1,38 +1,4 @@
-.btn{
-    display: inline-block;
-    text-decoration: none;
-    line-height: 1em;
-    text-align: center;
-    &-pink{
-        padding: 0.85em 1.5em;
-        border-radius: 1.5em;
-        transition: 350ms;
-        &:hover{
-            color: white;
-        }
-    }
-    &-pink-dark{
-        color: white;
-        padding: 0.85em 2em;
-        border-radius: 1.5em
-    }
-    &-white{
-        background: white;
-        padding: 0.85em 2em;
-        border-radius: 1.5em;
-        transition: 350ms;
-        &:hover{
-            color: white;
-        }
-    }
-    &-trans{
-        border-radius: 1.5em;
-        padding: 0.85em 1.5em;
-        transition: 300ms;
-        &:hover{
-        }
-    }
-}
+
 
 input{
     &[type=text]{

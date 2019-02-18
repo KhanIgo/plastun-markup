@@ -1,6 +1,9 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: Intro;
+}
 h1{ 
     font-size: 4em; 
-    line-height: 1em;
+    //line-height: 1em;
 }
 h2{ 
     font-size: 3em; 
@@ -37,6 +40,10 @@ span.spacer{
     padding: 0;
     color: transparent;
     background: transparent;
+}
+
+.gradient{
+    @include color-gradient($c-gradient);
 }
 
 .ta-center{
