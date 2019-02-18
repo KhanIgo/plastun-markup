@@ -50,10 +50,10 @@ mixin b-area-item(name, temp, desc, reverse)
             
             
             
-mixin recreation-item(name, dec, price, img)
+mixin recreation-item(name, desc, price, img)
     +b.b-recreation
         +e.img-wrp
-            +e.IMG(src=""+img).img
+            +e.IMG(src="/images/recreation/"+img).img
             +e.A(href="#").btn.view Смотреть 12 фото
         +e.info
             +e.title
