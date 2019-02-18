@@ -67,7 +67,7 @@ mixin recreation-item(name, desc, price, img)
 mixin photo-report(name, img)
     +b.b-photo-report
         +e.img-wrp
-            +e.IMG(src=""+img).img
+            +e.IMG(src="/images/photo-report/"+img).img
         
         +e.title
             p!= name
