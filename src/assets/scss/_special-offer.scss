@@ -1,0 +1,23 @@
+.c-special-offers {
+    background: $c-gradient;
+    padding-top: 155px;
+    &__container {}
+    &__title {
+        text-align: center;
+        color: white;
+    }
+    &__list {}
+    &__list-toggle-wrpr {}
+    &__btn {}
+}
+
+.b-offer {
+    &__img-wrp {}
+    &__img {}
+    &__info {}
+    &__title {}
+    &__excerpt {}
+    &__price {}
+    &__action {}
+    &__btn {}
+}
