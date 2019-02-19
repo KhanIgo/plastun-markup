@@ -19,3 +19,8 @@
 @mixin font-intro(){
     font-family: "Intro";
 }
+
+@mixin flex-gs-0{
+    flex-shrink: 0;
+    flex-grow: 0;
+}

@@ -34,19 +34,20 @@ mixin b-offer-item
             
             
             
-mixin b-area-item(name, temp, desc, reverse)
-    +b.b-area(class="b-area--"+reverse)
-        +e.info
-            +e.title
-                p!= name
-            +e.temp
-                p Темп: 
-                    span!= temp
-            +e.desc
-                p!= desc
-        +e.img-wrp
-            +e.IMG(src="").img
-            +e.A(href="#").btn.view Смотреть 12 фото
+mixin b-area-item(name, temp, desc, reverse, img, num)
+    +b.b-area(class="b-area--"+reverse +" b-area--"+num)
+        +e.inner(class="b-area__inner--"+reverse +" b-area__inner--"+num)
+            +e.info
+                +e.title
+                    p!= name
+                +e.temp
+                    p Темп: 
+                        span!= temp
+                +e.desc
+                    p!= desc
+            +e.img-wrp(class="b-area__img-wrp--"+reverse +" b-area__img-wrp--"+num)
+                +e.IMG(src="/images/areas/"+img).img
+                +e.A(href="#").btn.view Смотреть 12 фото
             
             
             

@@ -1,0 +1,116 @@
+.c-contacts-and-card{
+    background-image: url('../../images/back_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.c-contacts {
+    color: $c-text;
+    padding-top: 210px;
+    
+    &__container {
+        display: flex;
+    }
+    &__info {
+        width: 295px;
+        @include flex-gs-0;
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+        padding-bottom: 10px;
+    }
+    &__info-item {
+        span{
+            font-size: 1.14em;
+        }
+        p{
+            margin-top: 10px;
+        }
+        &--title{
+            font-size: 2.57em;
+            color: $c-white;
+            margin-top: -13px;
+            span{
+                display: block;
+                font-size: 1em;
+                margin-top: 0;
+            }
+        }
+        &--phone{
+            margin-top: 45px;
+            a{
+                @include color-gradient($c-gradient);
+                font-size: 1.28em;
+                
+            }
+        }
+        &--address{
+            margin-top: 37px;
+            p{
+                font-size: 1.14em;
+                color: $c-white;
+                line-height: normal;
+            }
+        }
+        &--desc{
+            margin-top: auto;
+        }
+        
+    }
+    
+    
+    &__map-wrp {}
+    &__map-img {}
+    
+    &__social {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__social-cta {
+        font-size: 1.42em;
+        transform: rotate( -90deg ) translateX( -50% );
+        white-space: nowrap;
+    }
+}
+
+.c-card {
+    margin-top: 155px;
+    padding-bottom: 165px;
+    color: $c-text;
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        justify-content: flex-start;
+    }
+    &__img-wrp {}
+    &__img {}
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 75px;
+        max-width: 520px;
+    }
+    
+    &__title {
+        font-size: 2.57em;
+        width: 100%;
+        span{
+            @include color-gradient($c-gradient);
+        }
+    }
+    &__subtitle {
+        width: 100%;
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+    &__text-item {
+        width: 200px;
+        margin-top: 10px;
+        color: $c-white;
+    }
+}

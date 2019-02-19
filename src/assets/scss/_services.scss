@@ -1,0 +1,83 @@
+.c-services {
+    color: $c-text;
+    margin-top: -38px;
+    background-image: url('../../images/back_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    
+    &__container {
+        margin-bottom: 100px;
+    }
+    &__title {
+        text-align: center;
+        h3{
+            @include font-sans;
+            text-transform: none;
+            font-weight: 400;
+        }
+    }
+    &__desc {
+        text-align: center;
+        font-size: 1.14em;
+        color: $c-white;
+        margin-top: 27px;
+    }
+    &__tables {
+        background-color: $c-dark;
+        margin-top: 45px;
+        padding: 55px 100px 45px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.b-service-table {
+    display: flex;
+    flex-direction: column;
+    
+    &--1{
+        width: 600px;
+    }
+    &--2{
+        width: 270px;
+    }
+    
+    &__title {
+        font-size: 1.71em;
+        margin-bottom: 17px;
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $c-back;
+        width: 100%;
+        padding: 18px 0;
+        margin-bottom: 15px;
+        padding-left: 30px;
+        min-height: 75px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &--header{
+            background-color: transparent;
+            align-items: flex-end;
+            margin-bottom: 0;
+        }
+        &--desc{
+            padding: 0;
+            background-color: transparent;
+            margin-top: -20px;
+            margin-bottom: 3px;
+        }
+    }
+    &__row-title {
+        color: $c-white;
+        font-size: 1.07em;
+    }
+    &__row-desc {}
+}
