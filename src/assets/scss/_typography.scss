@@ -47,6 +47,28 @@ span.spacer{
 .gradient{
     @include color-gradient($c-gradient);
 }
+.has-side-arrows{
+    position: relative;
+    &:before, &:after{
+        content: '';
+        display: block;
+        height: 30px;
+        width: 115px;
+        position: absolute;
+        top: 0;
+        background-image: url('../img/sub-title-arrow.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    &:before{
+        transform: rotate( 180deg );
+        left: -150px;
+    }
+    &:after{
+        right: -150px;
+    }
+}
 
 .ta-center{
     text-align: center;

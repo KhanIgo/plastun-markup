@@ -2,8 +2,11 @@ include _bemto.pug
 //mixin article_item(title, image, src, ago, excerpt)
 
 
-mixin social(text)
-    +b.A(href="#").social-link= text
+mixin social-footer(text)
+    +b.A(href="#", class="c-footer__social-link--"+text)= text
+    
+mixin social-cont(text)
+    +b.A(href="#", class="c-contacts__social-link--"+text)= text
     
     
 mixin about-item(text, img) 

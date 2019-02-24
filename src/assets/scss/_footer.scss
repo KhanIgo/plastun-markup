@@ -34,5 +34,29 @@
         text-decoration: none;
         
     }
+    
+    &__social-wrpr{
+        display: flex;
+        justify-content: space-between;
+        width: 60px;
+    }
+    &__social-link{
+        display: block;
+        width: 20px;
+        height: 20px;
+        color: transparent;
+        mask-position: center;
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        background: $c-gradient;
+        //@include color-gradient($c-gradient);
+        
+        &--vk{
+            mask-image: url('../img/footer-vk-icon.svg');
+        }
+        &--inst{
+            mask-image: url('../img/footer-inst-icon.svg');
+        }
+    }
 }
     

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "PTRouble-sans";
+    src: url('RUBSN.otf') format('opentype');
+}
+@font-face {
+    font-family: "PTRouble-serif";
+    src: url('RUBSR.otf') format('opentype');
+}
+/*
+@font-face {
+    font-family: "PTRouble-decorative";
+    src: url('RUBDC.otf') format('opentype');
+}
+*/

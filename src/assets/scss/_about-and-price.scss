@@ -60,11 +60,12 @@
 .c-price {
     margin-top: 100px;
     padding: 50px 0;
-    
+    overflow: hidden;
     color: $c-white;
     
     &__container {
-        
+        position: relative;
+        z-index: 2;
     }
     &__title {
         text-align: center;
@@ -92,6 +93,19 @@
         text-align: center;
         font-size: 1.14em;
         margin-top: 38px;
+    }
+    
+    &__granata{
+        position: absolute;
+        z-index: -1;
+        width: 500px;
+        height: 500px;
+    }
+    &__pushka{
+        position: absolute;
+        z-index: -1;
+        width: 750px;
+        height: 495px;
     }
 }
 
